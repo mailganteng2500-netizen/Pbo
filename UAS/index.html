@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Aplikasi Login PBO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="container">
+    <h2>Login Sistem</h2>
+
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+
+    <button onclick="app.login()">Login</button>
+    <button onclick="app.logout()">Logout</button>
+
+    <p class="forgot" onclick="app.lupaPassword()">Lupa Password?</p>
+
+    <p id="status"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
